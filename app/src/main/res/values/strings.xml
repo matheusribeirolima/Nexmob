@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Nexmob</string>
+    <string name="avaliacao">Avaliação:</string>
+    <string name="distancia">Distância:</string>
+</resources>

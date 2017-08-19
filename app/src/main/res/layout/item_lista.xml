@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imagem"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+    
+    <TextView
+        android:id="@+id/nome"
+        android:layout_width="160dp"
+        android:layout_height="75dp"
+        android:layout_toEndOf="@+id/imagem"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/aval"
+        android:layout_width="65dp"
+        android:layout_height="25dp"
+        android:gravity="center"
+        android:text="@string/avaliacao"
+        android:layout_toEndOf="@+id/nome"
+        android:layout_marginTop="14dp" />
+
+    <TextView
+        android:id="@+id/avaliacao"
+        android:layout_width="85dp"
+        android:layout_height="25dp"
+        android:gravity="center"
+        android:layout_marginTop="14dp"
+        android:layout_toEndOf="@+id/aval" />
+
+    <TextView
+        android:id="@+id/dist"
+        android:layout_width="65dp"
+        android:layout_height="25dp"
+        android:gravity="center"
+        android:text="@string/distancia"
+        android:layout_below="@+id/aval"
+        android:layout_toEndOf="@+id/nome" />
+
+    <TextView
+        android:id="@+id/distancia"
+        android:layout_width="85dp"
+        android:layout_height="25dp"
+        android:gravity="center"
+        android:layout_below="@+id/avaliacao"
+        android:layout_toEndOf="@+id/dist" />
+
+</RelativeLayout>
